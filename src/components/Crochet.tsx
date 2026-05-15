@@ -11,9 +11,9 @@ interface Product {
 }
 
 const products: Product[] = [
-  { id: 1, title: 'Gajra Bracelet', price: '₹199', type: 'Exotic Wool', image: '8.jpeg', isOrder: true },
-  { id: 2, title: 'Gajra Bracelet', price: '₹199', type: 'Limited edition', image: '10.jpeg', isOrder: true },
-  { id: 3, title: 'Hair Bun Gajra', price: '₹249', type: 'Custom Fit', image: '6.jpeg', isOrder: false },
+  { id: 1, title: 'Gajra Bracelet', price: '₹199', type: 'Exotic Wool', image: '/8.jpeg', isOrder: true },
+  { id: 2, title: 'Gajra Bracelet', price: '₹199', type: 'Limited edition', image: '/10.jpeg', isOrder: true },
+  { id: 3, title: 'Hair Bun Gajra', price: '₹249', type: 'Custom Fit', image: '/6.jpeg', isOrder: false },
 ];
 
 export default function Crochet() {

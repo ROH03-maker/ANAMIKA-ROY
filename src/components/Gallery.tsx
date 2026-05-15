@@ -12,12 +12,12 @@ interface ImageItem {
 }
 
 const images: ImageItem[] = [
-  { id: 1, url: '5.jpeg', category: 'Bridal', title: 'Bridal Heavy Mehendi' },
-  { id: 2, url: '1.jpeg', category: 'Modern', title: 'Minimalist Jewelry Design' },
-  { id: 3, url: '2.jpeg', category: 'Arabic', title: 'Arabic Fusion' },
-  { id: 4, url: '11.jpeg', category: 'Arabic', title: 'Bail/Creeper Style' },
-  { id: 5, url: '3.jpeg', category: 'Modern', title: 'Indian Gulf Fusion' },
-  { id: 6, url: '12.jpeg', category: 'Bridal', title: 'Portrait Bridal Mehendi' },
+  { id: 1, url: '/5.jpeg', category: 'Bridal', title: 'Bridal Heavy Mehendi' },
+  { id: 2, url: '/1.jpeg', category: 'Modern', title: 'Minimalist Jewelry Design' },
+  { id: 3, url: '/2.jpeg', category: 'Arabic', title: 'Arabic Fusion' },
+  { id: 4, url: '/11.jpeg', category: 'Arabic', title: 'Bail/Creeper Style' },
+  { id: 5, url: '/3.jpeg', category: 'Modern', title: 'Indian Gulf Fusion' },
+  { id: 6, url: '/12.jpeg', category: 'Bridal', title: 'Portrait Bridal Mehendi' },
 ];
 
 export default function Gallery() {
