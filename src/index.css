@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  
+  --color-luxury-cream: #F5F2ED;
+  --color-luxury-rose: #E8D3D1;
+  --color-luxury-champagne: #F5F2ED;
+  --color-luxury-charcoal: #1A1A1A;
+  --color-luxury-gold: #D4AF37;
+}
+
+@layer base {
+  body {
+    @apply bg-luxury-cream text-luxury-charcoal font-sans transition-colors duration-500 overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-display tracking-tight;
+  }
+  
+  .dark body {
+    @apply bg-[#0c0c0c] text-[#F5F2ED];
+  }
+}
+
+.glass-morphism {
+  @apply bg-white/40 backdrop-blur-xl border border-white/60;
+}
+
+.bento-card {
+  @apply rounded-[32px] overflow-hidden border border-black/5 dark:border-white/5;
+}
+
+.dark .glass-morphism {
+  @apply bg-black/30 backdrop-blur-md border-white/10;
+}
+
+/* Custom Cursor Styles */
+.cursor-dot {
+  @apply fixed w-1.5 h-1.5 bg-luxury-gold rounded-full pointer-events-none z-[10000] mix-blend-difference;
+}
+
+.cursor-outline {
+  @apply fixed w-8 h-8 border border-luxury-gold rounded-full pointer-events-none z-[9999] transition-all duration-150 ease-out;
+}
+
+.cursor-hidden {
+  opacity: 0;
+}
