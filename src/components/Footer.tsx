@@ -22,8 +22,8 @@ export default function Footer() {
 
           <div className="flex space-x-12 mb-12">
             {[
-              { icon: <Instagram size={28} />, name: 'Instagram', href: 'https://instagram.com', color: 'hover:text-[#E1306C]', glow: 'group-hover:shadow-[0_0_40px_rgba(225,48,108,0.8)]' },
-              { icon: <WhatsAppIcon />, name: 'WhatsApp', href: 'https://wa.me/918927598500', color: 'hover:text-[#25D366]', glow: 'group-hover:shadow-[0_0_40px_rgba(37,211,102,0.8)]' },
+              { icon: <Instagram size={28} />, name: 'Instagram', href: 'https://www.instagram.com/_saheb__bristi_', color: 'hover:text-[#E1306C]', glow: 'group-hover:shadow-[0_0_40px_rgba(225,48,108,0.8)]' },
+              { icon: <WhatsAppIcon />, name: 'WhatsApp', href: 'https://wa.me/917318972244', color: 'hover:text-[#25D366]', glow: 'group-hover:shadow-[0_0_40px_rgba(37,211,102,0.8)]' },
             ].map((social) => (
               <a
                 key={social.name}

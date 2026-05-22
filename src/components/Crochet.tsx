@@ -19,7 +19,7 @@ const products: Product[] = [
 export default function Crochet() {
   const handleOrder = (product: string) => {
     const message = encodeURIComponent(`Hi Anamika, I'm interested in a custom order for the ${product}. Can we discuss the details?`);
-    window.open(`https://wa.me/918927598500?text=${message}`, '_blank');
+    window.open(`https://wa.me/917318972244?text=${message}`, '_blank');
   };
 
   return (

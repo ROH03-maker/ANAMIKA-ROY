@@ -52,7 +52,7 @@ export default function Navbar() {
             <button onClick={toggleDark} className="p-2 hover:bg-black/5 dark:hover:bg-white/5 rounded-full transition-colors">
               {isDark ? <Sun size={18} /> : <Moon size={18} />}
             </button>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="p-2 hover:text-luxury-gold transition-colors">
+            <a href="https://www.instagram.com/_saheb__bristi_" target="_blank" rel="noreferrer" className="p-2 hover:text-luxury-gold transition-colors">
               <Instagram size={18} />
             </a>
           </div>
@@ -90,7 +90,7 @@ export default function Navbar() {
                 </a>
               ))}
               <div className="flex space-x-8 pt-4">
-                <a href="https://instagram.com" target="_blank" rel="noreferrer" className="text-luxury-charcoal dark:text-luxury-cream">
+                <a href="https://www.instagram.com/_saheb__bristi_" target="_blank" rel="noreferrer" className="text-luxury-charcoal dark:text-luxury-cream">
                   <Instagram size={24} />
                 </a>
               </div>

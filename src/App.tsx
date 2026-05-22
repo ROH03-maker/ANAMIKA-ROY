@@ -35,7 +35,7 @@ export default function App() {
                 <p className="text-xs opacity-60 leading-relaxed max-w-[200px]">Bridal, Arabic, and Modern patterns. Intricate art for special moments.</p>
               </div>
               <div className="flex flex-wrap gap-2 mt-4 z-10">
-                {['Bridal', 'Modern', 'Art'].map(tag => (
+                {['Bridal', 'Arabic', 'Modern'].map(tag => (
                   <div key={tag} className="px-4 py-2 rounded-full border border-white/20 bg-white/10 text-[10px] uppercase tracking-widest">{tag}</div>
                 ))}
               </div>
@@ -83,7 +83,7 @@ export default function App() {
               <h3 className="text-3xl font-display mb-2">Quick Order</h3>
               <p className="text-sm md:text-base opacity-60 mb-8 max-w-sm">Connect directly on WhatsApp for lightning-fast responses and custom inquiries.</p>
               <button 
-                onClick={() => window.open('https://wa.me/918927598500', '_blank')}
+                onClick={() => window.open('https://wa.me/917318972244', '_blank')}
                 className="px-12 py-5 bg-luxury-charcoal text-white dark:bg-luxury-gold dark:text-black rounded-full text-[10px] uppercase tracking-[0.4em] font-bold hover:scale-105 active:scale-95 transition-all shadow-xl shadow-luxury-gold/20"
               >
                 Message on WhatsApp

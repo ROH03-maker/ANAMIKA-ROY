@@ -45,7 +45,7 @@ export default function ContactForm() {
               </div>
               <div className="bento-card bg-luxury-cream/50 p-6">
                 <p className="uppercase text-[10px] tracking-widest font-bold text-luxury-charcoal dark:text-luxury-rose mb-2">Email</p>
-                <p className="font-light text-xs">rohitsarkarworks03@gmail.com</p>
+                <p className="font-light text-xs">anamikaroy@gmail.com</p>
               </div>
             </div>
           </div>
