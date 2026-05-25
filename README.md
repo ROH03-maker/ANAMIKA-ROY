@@ -1,20 +1,9 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# About Me
 
-# Run and deploy your AI Studio app
+Hi, I’m Anamika. I create mehendi designs and handmade wool gajra with creativity, passion, and love for artistic work. Every design I make is crafted with care to bring beauty, elegance, and a personal touch to special moments.
 
-This contains everything you need to run your app locally.
+This website was created to showcase my work in a simple and beautiful way so that people can explore my designs, creativity, and handmade creations online. From traditional mehendi patterns to aesthetic wool gajra designs, I enjoy creating artwork that feels unique and meaningful.
 
-View your app in AI Studio: https://ai.studio/apps/b446aa0f-9992-41dc-9ae7-1d731d0c4bc4
+My goal is to continue improving my craft, creating beautiful designs, and sharing my creativity with more people through this platform.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Thank you for visiting and supporting my work.
