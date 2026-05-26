@@ -1,20 +1,2 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/b446aa0f-9992-41dc-9ae7-1d731d0c4bc4
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Hi! I'm Anamika Roy 
+Artistic Portfolio & Boutique Anamika Roy is a multidisciplinary artist specializing in Professional Mehendi Artistry and Bespoke Crochet Craft.Handcrafted with Care. Designed for You.
