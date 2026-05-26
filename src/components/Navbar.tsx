@@ -31,7 +31,8 @@ export default function Navbar() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className="flex flex-col"
+          className="flex flex-col cursor-pointer"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           <span className="text-3xl md:text-4xl font-display text-luxury-gold tracking-tight leading-none">Anamika Roy</span>
           <span className="text-[8px] md:text-xs uppercase tracking-[0.3em] font-medium opacity-60 mt-1">Artistic Portfolio & Boutique</span>
